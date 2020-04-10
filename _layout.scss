@@ -1,0 +1,15 @@
+
+.wrap{
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #EFE9E7;
+}
+
+@media(max-width:1300px){
+  .container{
+     max-width: 1024px;
+     padding: 0;
+  }
+}
+
+

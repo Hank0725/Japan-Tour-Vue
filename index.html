@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="all.css">
+<title>日本GO旅遊行程行程官方網站</title>
+</head>
+<body>
+  <div class="wrap">
+  <div class="bg-secondary py-2 px-3">
+    <div class="container text-right">
+    <a href="#" class="text-white"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+    <a href="#" class="text-white"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <header>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="index.html">
+            <img src="../Shopping-cart-Vue/img/japan.svg" alt="" >
+        </a>
+        <h1 class="d-flex">日本GO旅遊行程網站</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active">
+              <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">日本優質行程</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                日本行程選單
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">休閒旅遊</a>
+                <a class="dropdown-item" href="#">精緻日本美食之旅  </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">滑雪活動</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  沖繩島之旅
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">沖繩海島自駕之旅</a>
+                  <a class="dropdown-item" href="#">沖繩購物之旅</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">海上浮潛活動</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  大阪京都之旅
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">大阪城歷史之旅</a>
+                  <a class="dropdown-item" href="#">大阪自由購物之旅</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">京都和服體驗活動</a>
+                </div>
+              </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">未顯示的行程</a>
+            </li> -->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <a href="" class="btn btn-outline-primary  mr-2">會員登入</a>
+              <a href="" class="btn btn-primary mr-2">後台登入</a>
+            <!-- <input class="form-control mr-sm-2" type="search" placeholder="請輸入您想去的地方" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜尋</button> -->
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="content">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item header-carousel-item bg-cover active" style="background-image: url(https://i.imgur.com/eHuLapT.jpg);">
+          <div class="carousel-caption d-none d-md-block px-3">
+            <h5 class="py-3">北海道二世谷滑雪之旅</h5>
+            <p>適合初學者學習滑雪的初心者之旅</p>
+          </div>
+        </div>
+        <div class="carousel-item header-carousel-item bg-cover" style="background-image: url(https://i.imgur.com/jRPkCgf.jpg);">
+          <div class="carousel-caption d-none d-md-block px-3">
+            <h5 class="py-3">北海道小樽之旅</h5>
+            <p>體驗冰雪奇緣中的夢幻冰運河，此生就這一次機會來北海道冬季玩耍吧！</p>
+          </div>
+        </div>
+        <div class="carousel-item header-carousel-item bg-cover" style="background-image: url(https://i.imgur.com/mTAvXBS.jpg);">
+          <div class="carousel-caption d-none d-md-block px-3">
+            <h5 class="py-3">冬季鐵道長程旅行</h5>
+            <p>想像冬季鐵道員忙碌的工作，成為一位冬季鐵道旅遊達人</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class=" carousel-item header-carousel-item bg-cover" style="background-image: url(https://imgur.com/jRPkCgf)">
+    
+    </div>
+  </div>
+
+<!-- 
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+   <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+   <div class="carousel-inner">
+    <div class="carousel-item header-carousel-item  bg-cover active" style="background-image:url(https://i.imgur.com/jRPkCgf.jpg)">
+    <div class="carousel-caption d-none d-md-block  px-3">
+    <h5>法式下午茶蛋糕</h5>
+    <p>法籍甜點行政主廚羅倫悉心打造一座巴黎點心房，推出「原味法國-杜樂麗花園下午茶」讓更多人感受法國當代的甜點手藝，超過二十款甜、鹹點與飲品皆無限量供應。</p>
+    </div>
+        </div>
+    <div class="carousel-item header-carousel-item  bg-cover" style="background-image:url(https://images.unsplash.com/photo-1497668512640-fcbd959e5338?dpr=2&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=)">
+    <div class="carousel-caption d-none d-md-block  px-3">
+    <h5>美國牛小排奶油松露燉飯</h5>
+    <p>貴賓廊新菜上市！味美鮮甜的大蝦南瓜燉飯、精緻獨特的美國牛小排奶油松露燉飯、獨具風味的香煎雞腿一夜干義式麵包、更少不了超人氣晶華紅燒牛肉麵！</p>
+    </div>
+        </div>
+    <div class="carousel-item header-carousel-item  bg-cover" style="background-image:url( https://images.unsplash.com/photo-1453831362806-3d5577f014a4?dpr=2&auto=format&fit=crop&w=1500&h=1016&q=80&cs=tinysrgb&crop=)">
+   <div class="carousel-caption d-none d-md-block px-3">
+    <h5>經典招牌料理</h5>
+    <p>風格雅致的晶英軒擁有廚藝精湛的廚師團隊，提供主廚精選招牌菜、港式點心及本地特色佳餚，為賓客提供高品質的用餐體驗。餐廳擁有 5 間獨立包廂，是任何宴請和慶祝場合的理想之選。
+     </p>
+     </div>
+        </div>
+     </div>
+     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header> -->
+  <div class="menu">
+  <div class="container">
+     <h2 class="text-center py-4">─最新旅遊行程優惠資訊─</h2>
+  <div class="row text-center">
+  
+  <div class="col-md-4 px-2">
+   <div class="box text-center">
+     <a href=""><img src="" alt=""></a>
+     <p>nrhrhthw</p>
+     <p>wtehwht</p>
+     <button type="button" class="btn btn-success">加入購物車</button>
+   </div>
+  </div>
+  <div class="col-md-4">
+    <div class="box text-center  ">
+      <a href=""><img src="" alt=""></a>
+      <p>nrhrhthw</p>
+      <p>wtehwht</p>
+      <button type="button" class="btn btn-success">加入購物車</button>
+    </div>
+  </div>
+  <div class="col-md-4 ">
+   <div class="box text-center ">
+    <a href=""><img src="" alt=""></a>
+    <p>nrhrhthw</p>
+    <p>wtehwht</p>
+    <button type="button" class="btn btn-success">加入購物車</button> 
+   </div>
+  </div>
+
+
+
+  </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <footer>
+    <div class="container">
+     <div class="row bg-light py-3 ">
+     <div class="col-md-4 text-center">
+     <ul>
+     <li class="px-2"><p class="text-secondary ">關於我們</p></li>
+     <li class="px-2"><a class="px-2" href="">日本成立初衷</a></li>
+     <li><a class="px-2" href="">日本旅遊團隊</a></li>
+     <li><a class="px-2" href="">日本經歷與歷史</a></li>
+    </ul>
+     </div>
+     <div class="col-md-4  text-center">
+     <ul>
+     <li><p class="text-secondary">最新日本旅遊資訊</p></li>  
+     <li><a class="py-2" href="">東京</a></li>
+     <li><a class="px-2" href="">大阪</a></li>
+     <li><a class="px-2" href="">北海道</a></li>
+     <li><a class="px-2" href="">沖繩</a></li>
+     </ul>
+     </div>
+     <div class="col-md-4  text-center  ">
+      <ul>
+      <li><p class="text-secondary ">聯絡我們</p></li>
+      <li><a class="px-2" href="#" class="mr-1" ><i class="fab fa-instagram mr-1"></i>instagram</a></li>
+      <li><a class="px-2" href="#"  class="mr-1"><i class="fab fa-facebook-square mr-1"></i>facebook</a></li>
+      <li><a class="px-2" href="#"class="mr-1" >我們的聯絡資訊</a></li>
+      <li><a class="px-2" href="#"class="mr-1" >我們的位置</a></li>
+     </ul>
+     </div>
+      </div>  
+     <div id="app" class="copyright bg-secondary text-center py-3">
+      <p>{{copyright}}</p>
+    </div>
+   
+     </div>
+  </footer>
+  
+</div>  
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="all.js"></script>
+</body>
+</html>
